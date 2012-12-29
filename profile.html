@@ -58,7 +58,7 @@
             <ul class="nav">
               <li><a href="upload.html"><i class="icon-upload"></i>&#160;Upload</a></li>
               <li><a href="about.html"><i class="icon-globe"></i>&#160;About</a></li>
-              <li><a href="press.html"><i class="icon-comment"></i>&#160;Press</a></li>
+              <li><a href="press.html"><i class="icon-comment"></i>&#160;Badges</a></li>
 			  <li><a href="#profile"><i class="icon-picture"></i>&#160;Profile</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -72,15 +72,30 @@
 			<div class="signup-unit">
 				<form class="horizontal">
 				  <fieldset>
-				    <legend>Edit Account Settings<button type="submit" class="btn pull-right">Deactivate</button></legend>
+				    <legend>Edit Account Settings <select class="pull-right">
+						  <option>San Francisco</option>
+						  <option>New York</option>
+						  <option>Dallas</option>
+						  <option>Brooklyn</option>
+						  <option>Atlanta</option>
+						  <option>Chicago</option>
+						  <option>Los Angeles</option>
+						  <option>Orange County</option>
+						</select></legend>
 				    <div class="input-append">
 					  <input class="span2" id="appendedInputButton" type="text" placeholder="jesse.lanum@gmail.com">
 					  <button class="btn" type="button">Change Email</button>
 					</div>
 				  </fieldset>
 				</form>
-			<a class="btn" href="">Change Password</a>
+			<a class="btn" href="">Change Password</a><br><br>
+			<div class="input-prepend">
+			<span class="add-on">Your Zip Code</span>
+			<input class="span2" id="prependedInput" type="text" placeholder="94107">
+			</div>
 			<hr>
+			<img src="img/jesse_profile.jpg" height="100px" width="100px"><br><br>
+			<a class="btn" href="">Upload Image</a><br>
 			<label class="radio inline">
 			  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
 			  Female
@@ -113,27 +128,21 @@
 				  <span class="add-on">http://www.mysaletable.com/</span>
 				  <input class="span2" id="prependedInput" type="text" placeholder="Jess">
 				</div><br>
-				<img src="img/jesse_profile.jpg" height="100px" width="100px"><br><br>
-				<a class="btn" href="">Upload Image</a>
+				
 			   <hr>
 			
 			<span class="bio">Bio</span>
 		<textarea data-provide="limit" data-counter="#counter" placeholder="Enter text here"rows="3"></textarea><br>
 		<hr>
 		
-		<p>&#160;Select a City</p>
-	<select>
-	  <option>San Francisco</option>
-	  <option>New York</option>
-	  <option>Dallas</option>
-	  <option>Houston</option>
-	  <option>Atlanta</option>
-	</select>
-	<br>
-	<div class="input-prepend">
-	  <span class="add-on">Zip Code</span>
-	  <input class="span2" id="prependedInput" type="text" placeholder="94107">
-	</div>
+
+	
+	<button type="submit" class="btn pull-left">Deactivate</button>
+	
+	  
+	  
+	
+
 	
 	 </div><!--end marketing -->		
 	</div><!--end container -->
