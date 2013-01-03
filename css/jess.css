@@ -345,9 +345,21 @@ width: 62px;
 }
 
 .modal-social {
-	padding-right: 113px;
+	padding-right: 142px;
 }
 
 .photo-upload {
 	padding-left: 100px;
+}
+
+.size-chart {
+	margin-left: 365px !important;
+}
+
+.size-btn {
+	margin-left: 452px !important;
+}
+
+.modal-brand {
+	margin-bottom: -40px;
 }
