@@ -660,7 +660,7 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
-  border-top: 1px solid #7d7d7d;
+  border-top: 1px solid #bdbdbd;
   border-bottom: 1px solid #ffffff;
 }
 abbr[title],
@@ -1086,7 +1086,7 @@ legend {
   line-height: 40px;
   color: #333333;
   border: 0;
-  border-bottom: 1px solid #7D7D7D;
+  border-bottom: 1px solid #bdbdbd;
 }
 legend small {
   font-size: 15px;
@@ -2956,7 +2956,7 @@ input[type="submit"].btn.btn-mini {
 }
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #592A84;
 }
 .nav > .pull-right {
   float: right;

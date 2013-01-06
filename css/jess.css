@@ -155,6 +155,8 @@
   -moz-border-radius: 6px;
   border-radius: 6px;
   border: dotted;
+  width: 700px;
+  margin-left: 130px;
 }
 
 
@@ -251,6 +253,7 @@ span.stretch {
     vertical-align: sub;
     padding-top: 10px;
     line-height: 40px !important;
+   
 }
 
 .our-story {
@@ -345,7 +348,7 @@ width: 62px;
 }
 
 .modal-social {
-	padding-right: 142px;
+	padding-right: 138px;
 }
 
 .photo-upload {
@@ -362,4 +365,36 @@ width: 62px;
 
 .modal-brand {
 	margin-bottom: -40px;
+}
+
+.time {
+	margin-bottom: 0px !important;
+}
+
+.follow {
+	margin-right: -10px;
+	margin-left: 0px;
+}
+
+.time-banner .image-banner {
+  /* We need this to make the .hover-toggle div relative to .image-wrapper */
+  position: relative;
+}
+
+.time-banner .image-banner .banner-toggle {
+  /* set it at the bottom of .image-wrapper */
+  position: absolute;      
+  top: -130px;
+  left: 0px;
+  /* and don't display it */
+  display: block;
+  background-color: rgba(102, 102, 102, .8);
+  height: 38px;
+  width: 100%;
+  text-align:justify;
+
+}
+
+.time-banner:hover .image-banner .banner-toggle {
+  display: block;
 }
