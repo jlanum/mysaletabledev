@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>index.html</string>
+	<string>createbusiness.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,44 +26,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>32</integer>
 				<key>line</key>
-				<integer>232</integer>
+				<integer>72</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>217</integer>
-		</dict>
-		<key>about.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>110</integer>
-				<key>line</key>
-				<integer>50</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>39</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>10</integer>
-				<key>line</key>
-				<integer>50</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>110</integer>
-				<key>line</key>
-				<integer>50</integer>
-			</dict>
+			<integer>92</integer>
 		</dict>
 		<key>contact.html</key>
 		<dict>
@@ -79,47 +49,63 @@
 			<key>firstVisibleLine</key>
 			<integer>69</integer>
 		</dict>
+		<key>createbusiness.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>38</integer>
+				<key>line</key>
+				<integer>120</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>95</integer>
+		</dict>
 		<key>css/bootstrap.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
+				<integer>16</integer>
 				<key>line</key>
-				<integer>2958</integer>
+				<integer>1563</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>2941</integer>
+			<integer>1549</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>9</integer>
+				<key>line</key>
+				<integer>1563</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>16</integer>
+				<key>line</key>
+				<integer>1563</integer>
+			</dict>
 		</dict>
 		<key>css/jess.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>10</integer>
+				<integer>24</integer>
 				<key>line</key>
-				<integer>386</integer>
+				<integer>402</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>365</integer>
-		</dict>
-		<key>faq-delivery.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>74</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>56</integer>
+			<integer>367</integer>
 		</dict>
 		<key>faq-merch.html</key>
 		<dict>
@@ -163,7 +149,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>28</integer>
+			<integer>23</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
@@ -184,14 +170,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>184</integer>
+				<integer>96</integer>
 				<key>line</key>
-				<integer>277</integer>
+				<integer>266</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>115</integer>
 			<key>firstVisibleLine</key>
-			<integer>253</integer>
+			<integer>256</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>90</integer>
+				<key>line</key>
+				<integer>266</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>96</integer>
+				<key>line</key>
+				<integer>266</integer>
+			</dict>
 		</dict>
 		<key>js/bootstrap.js</key>
 		<dict>
@@ -249,34 +251,6 @@
 			<key>firstVisibleLine</key>
 			<integer>53</integer>
 		</dict>
-		<key>phototips.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>137</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>119</integer>
-		</dict>
-		<key>press.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>28</integer>
-				<key>line</key>
-				<integer>67</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>53</integer>
-		</dict>
 		<key>privacy.html</key>
 		<dict>
 			<key>caret</key>
@@ -296,61 +270,107 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>102</integer>
+				<integer>24</integer>
 				<key>line</key>
-				<integer>134</integer>
+				<integer>83</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>116</integer>
+			<integer>54</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>175</integer>
+			</dict>
 		</dict>
-		<key>signup.html</key>
+		<key>purchase.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>48</integer>
+				<integer>115</integer>
 				<key>line</key>
-				<integer>75</integer>
+				<integer>73</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>52</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>35</integer>
+				<key>line</key>
+				<integer>73</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>115</integer>
+				<key>line</key>
+				<integer>73</integer>
+			</dict>
 		</dict>
 		<key>upload.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>99</integer>
 				<key>line</key>
-				<integer>231</integer>
+				<integer>93</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>10</integer>
+			<integer>79</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>93</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>99</integer>
+				<key>line</key>
+				<integer>93</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>about.html</string>
 		<string>css/bootstrap.css</string>
-		<string>merchants.html</string>
 		<string>index.html</string>
-		<string>css/jess.css</string>
-		<string>signup.html</string>
+		<string>FAQ.html</string>
+		<string>upload.html</string>
+		<string>purchase.html</string>
 		<string>fbconnect.html</string>
-		<string>landing.html</string>
-		<string>login.html</string>
+		<string>createbusiness.html</string>
+		<string>css/jess.css</string>
 		<string>profile.html</string>
-		<string>press.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{216, 88}, {1031, 688}}</string>
+	<string>{{215, 90}, {1031, 688}}</string>
 </dict>
 </plist>

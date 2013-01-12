@@ -348,7 +348,7 @@ width: 62px;
 }
 
 .modal-social {
-	padding-right: 138px;
+	padding-right: 84px;
 }
 
 .photo-upload {
@@ -397,4 +397,8 @@ width: 62px;
 
 .time-banner:hover .image-banner .banner-toggle {
   display: block;
+}
+
+.retail-type {
+	width: 220px !important;
 }
