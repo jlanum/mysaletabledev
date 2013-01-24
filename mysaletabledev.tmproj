@@ -21,6 +21,20 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
+		<key>404.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>17</integer>
+				<key>line</key>
+				<integer>44</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>11</integer>
+		</dict>
 		<key>about.html</key>
 		<dict>
 			<key>caret</key>
@@ -34,36 +48,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>contact.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>66</integer>
-				<key>line</key>
-				<integer>92</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>68</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>4</integer>
-				<key>line</key>
-				<integer>89</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>66</integer>
-				<key>line</key>
-				<integer>92</integer>
-			</dict>
 		</dict>
 		<key>css/bootstrap.css</key>
 		<dict>
@@ -100,71 +84,73 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>15</integer>
 				<key>line</key>
-				<integer>415</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>382</integer>
-		</dict>
-		<key>faq-merch.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>74</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>56</integer>
-		</dict>
-		<key>faq-shop.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>21</integer>
-				<key>line</key>
-				<integer>231</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>259</integer>
-			<key>firstVisibleLine</key>
-			<integer>217</integer>
-		</dict>
-		<key>index.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>9</integer>
-				<key>line</key>
-				<integer>35</integer>
+				<integer>417</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>9</integer>
+			<integer>413</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>4</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>417</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>15</integer>
 				<key>line</key>
-				<integer>35</integer>
+				<integer>417</integer>
+			</dict>
+		</dict>
+		<key>fbconnect.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>55</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>37</integer>
+		</dict>
+		<key>index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>214</integer>
+				<key>line</key>
+				<integer>256</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>249</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>133</integer>
+				<key>line</key>
+				<integer>256</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>214</integer>
+				<key>line</key>
+				<integer>256</integer>
 			</dict>
 		</dict>
 		<key>js/bootstrap.js</key>
@@ -181,61 +167,33 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>landing.html</key>
+		<key>landing2.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>75</integer>
 				<key>line</key>
-				<integer>41</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>50</integer>
-		</dict>
-		<key>landing2.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>55</integer>
-				<key>line</key>
 				<integer>38</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>14</integer>
+			<integer>13</integer>
 		</dict>
 		<key>login.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>31</integer>
+				<integer>23</integer>
 				<key>line</key>
-				<integer>117</integer>
+				<integer>65</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>90</integer>
-		</dict>
-		<key>merchants.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>57</integer>
-				<key>line</key>
-				<integer>69</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>53</integer>
+			<integer>57</integer>
 		</dict>
 		<key>privacy.html</key>
 		<dict>
@@ -286,43 +244,26 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>62</integer>
+				<integer>46</integer>
 				<key>line</key>
-				<integer>19</integer>
+				<integer>76</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>3</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>8</integer>
-				<key>line</key>
-				<integer>19</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>62</integer>
-				<key>line</key>
-				<integer>19</integer>
-			</dict>
+			<integer>53</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>css/bootstrap.css</string>
 		<string>index.html</string>
-		<string>signup.html</string>
 		<string>landing2.html</string>
-		<string>contact.html</string>
-		<string>about.html</string>
-		<string>landing.html</string>
+		<string>fbconnect.html</string>
+		<string>signup.html</string>
+		<string>login.html</string>
+		<string>404.html</string>
 		<string>css/jess.css</string>
-		<string>profile.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
