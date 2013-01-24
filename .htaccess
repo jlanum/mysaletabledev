@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^mysaletable.com [nc]
+rewriterule ^(.*)$ http://www.mysaletable.com/$1 [r=301,nc]
+
