@@ -28,16 +28,17 @@
     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 
 	<script type="text/javascript">
-	//The array which is going to hold the image information. Store the image info along with their correct path; I've omitted the path here as I've stored the images in the same folder where my web page resides.
+	//The array which is going to hold the image information. 
 	var imageArray = new Array();
 
 	imageArray[0] = "img/Landing_Scotch_Dark_Corner.jpg"; //You can replace these image file names with your own image names.
 	imageArray[1] = "img/Landing_Marc.jpg";
 	imageArray[2] = "img/Landing_Sale_Sign_2.jpg";
-	imageArray[3] = "img/Landing_Ralph.jpg";
+	imageArray[3] = "img/landing_edited_PEC1.jpg";
+	imageArray[4] = "img/Landing_Kate_Spade_edited.jpg";
 	function doIt()
 	{
-	var rand = Math.floor(Math.random()*4); //Generating a random number between 0 and 3 here in your case you can replace 4 with 11 if you have 10 images
+	var rand = Math.floor(Math.random()*5); //Generating a random number between 0 and 3 here in your case you can replace 4 with 11 if you have 10 images
 
 	var imgPath = "<img src='"+imageArray[rand]+"' alt='heder' border='0' align='absmiddle' />";
 
