@@ -402,3 +402,47 @@ width: 62px;
 .retail-type {
 	width: 220px !important;
 }
+
+
+.member-login {
+	position: absolute;
+	margin-left: 1000px;
+	padding-top: 30px;
+	
+	
+}
+
+.fourzerofour {
+	font-size: 88px !important;
+	text-align: center;
+	color: #592A84 !important;
+}
+
+.contact-info {
+	padding-right: 120px;
+}
+
+#logo-wrapper {
+	position:fixed; 
+	top:-50%; 
+	left:-50%; 
+	width:200%; 
+	height:200%;
+}
+#logo-wrapper img {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	right:0; 
+	bottom:0; 
+	margin:auto; 
+	min-width:50%;
+	min-height:50%;
+}
+
+.landing-logo {
+	position:absolute;
+	
+	padding-top: 60px;
+	padding-left:40px;
+}
