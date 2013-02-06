@@ -55,7 +55,7 @@
 	    margin-top: 24px;
 	font-size: 14px !important;
 	font-weight: lighter !important;
-	color: #592A84 !important;
+	color: #432060 !important;
 	
 }
 
@@ -102,7 +102,7 @@
 }
 
 .product-pic:hover {
-	outline:#592A84 dotted 2px;
+	outline:#432060 dotted 2px;
 	
 }
 
@@ -415,7 +415,7 @@ width: 62px;
 .fourzerofour {
 	font-size: 88px !important;
 	text-align: center;
-	color: #592A84 !important;
+	color: #432060 !important;
 }
 
 .contact-info {
@@ -459,4 +459,12 @@ width: 62px;
 .hey {
 	padding-left: 80px;
 	vertical-align: -10px;
+}
+
+.postbtn {
+	margin-left: 430px;
+}
+
+.fave {
+	vertical-align: 10px;
 }

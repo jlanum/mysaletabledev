@@ -815,7 +815,7 @@ a.badge:hover {
 }
 .label-success,
 .badge-success {
-  background-color: #592A84;
+  background-color: #432060;
 }
 .label-success[href],
 .badge-success[href] {
@@ -2956,7 +2956,7 @@ input[type="submit"].btn.btn-mini {
 }
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #592A84;
+  background-color: #432060;
 }
 .nav > .pull-right {
   float: right;
