@@ -450,3 +450,7 @@ width: 62px;
 .landing-text {
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
+
+.profile-name {
+	vertical-align: bottom;
+}
