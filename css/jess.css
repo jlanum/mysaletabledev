@@ -451,6 +451,12 @@ width: 62px;
 	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.profile-name {
-	vertical-align: bottom;
+.follow-page {
+	padding-right: 600px;
+
+}
+
+.hey {
+	padding-left: 80px;
+	vertical-align: -10px;
 }
