@@ -349,6 +349,7 @@ width: 62px;
 
 .modal-social {
 	padding-left: 64px;
+	padding-bottom: 5px;
 }
 
 .photo-upload {
@@ -384,7 +385,7 @@ width: 62px;
 .time-banner .image-banner .banner-toggle {
   /* set it at the bottom of .image-wrapper */
   position: absolute;      
-  top: -130px;
+  top: -125px;
   left: 0px;
   /* and don't display it */
   display: block;
@@ -467,4 +468,9 @@ width: 62px;
 
 .fave {
 	vertical-align: 10px;
+}
+
+.comment-box {
+	padding-bottom: -10px;
+	margin-top: 5px;
 }
