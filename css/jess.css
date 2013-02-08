@@ -474,3 +474,11 @@ width: 62px;
 	padding-bottom: -10px;
 	margin-top: 5px;
 }
+
+.pwd {
+	vertical-align:-.5px;
+}
+
+.url {
+	vertical-align: 1px;
+}
