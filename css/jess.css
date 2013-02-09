@@ -482,3 +482,8 @@ width: 62px;
 .url {
 	vertical-align: 1px;
 }
+
+.storedec {
+	text-decoration: none !important;
+	padding-left: 440px;
+}
