@@ -487,3 +487,7 @@ width: 62px;
 	text-decoration: none !important;
 	padding-left: 440px;
 }
+
+.expiration {
+	width: 80px !important;
+}
