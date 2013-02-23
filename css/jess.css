@@ -491,3 +491,7 @@ width: 62px;
 .expiration {
 	width: 80px !important;
 }
+
+.shipping {
+	padding-left: 340px !important;
+}
