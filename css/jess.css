@@ -80,7 +80,7 @@
 .hover-group .image-wrapper .hover-toggle {
   /* set it at the bottom of .image-wrapper */
   position: absolute;      
-  bottom: 0px;
+  bottom: -3px;
   left: 0px;
   /* and don't display it */
   display: none;
