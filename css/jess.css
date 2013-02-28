@@ -504,3 +504,8 @@ width: 62px;
 .iphone-logo {
 	padding-left:5px;
 }
+
+.separate {
+	left: 720px !important;
+	position: absolute;
+}
