@@ -82,7 +82,7 @@
   bottom: -3px;
   left: 0px;
   /* and don't display it */
-  display: none;
+  display: block;
   background-color: #432060;
   height: 38px;
   width: 100%;
