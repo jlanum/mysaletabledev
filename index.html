@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="js/bootstrap-editable.min.js"></script>
-
+	
 	
 
     <!-- Le styles -->
@@ -32,8 +32,17 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">	<script type="text/javascript">
-
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">	
+    <script type="text/javascript">
+		$(document).on('click','#button', function(){
+			if($(this).siblings('#filter-section').is(':visible')){
+				$(this).siblings('#filter-section').slideUp()
+			}else{
+				$(this).siblings('#filter-section').hide().slideDown()
+			}
+			
+		})
+		
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-38882935-1']);
 	  _gaq.push(['_trackPageview']);
@@ -81,7 +90,20 @@
     <div class="container">
      
       	<div class="category-feed well">
-	      <span class="pull-left">	<select>
+			<div id="button" class="filter-button">Filter</div>
+			
+			<span class="category-feed-align">
+			  <a href="#">WOMEN</a>&#160; |
+			  <a href="#">MEN</a>&#160; |
+			  <a href="#">KIDS</a>&#160; |
+			  <a href="#">HOME</a>&#160; |
+			  <a href="#">&#160;PET</a>
+			</span>
+		
+		<a href="faves.html"><img src="img/favescript3.png" width="73px" height="22px" class="faves-script"></a>
+		<div id="filter-section" class="filter-section">	
+    	  <span class="pull-left">	
+			<select>
 			  <option>Filter by Size</option>
 			  <option>New York</option>
 			  <option>Dallas</option>
@@ -91,14 +113,18 @@
 			  <option>Los Angeles</option>
 			  <option>Orange County</option>
 			</select></span>
-			<span class="category-feed-align">
-		  <a href="#">WOMEN</a>&#160; |
-		  <a href="#">MEN</a>&#160; |
-		  <a href="#">KIDS</a>&#160; |
-		  <a href="#">HOME</a>&#160; |
-		  <a href="#">&#160;PET</a>
-		</span>
-		<a href="faves.html"><img src="img/favescript3.png" width="73px" height="22px" class="pull-right"></a>
+			 <span class="pull-left filter-city">	
+				<select>
+				  <option>Filter by Size</option>
+				  <option>New York</option>
+				  <option>Dallas</option>
+				  <option>Brooklyn</option>
+				  <option>Atlanta</option>
+				  <option>Chicago</option>
+				  <option>Los Angeles</option>
+				  <option>Orange County</option>
+				</select></span>
+		</div>
 		</div>
 	</div>
 	 
@@ -113,8 +139,6 @@
 		            <div class="image-wrapper">
 		              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#MerchantModal" data-toggle="modal"><img class="product-pic" src="img/Saks_Gucci.jpg" alt=""></a>
 					<span class="thisInfo">
-						<p class="lanvin">""</p>
-					<p class="flats">""<p>
 						</span>
 		              <div class="hover-toggle">
 		                <center><span class="percentoff">30% Off</span></center>
@@ -128,13 +152,13 @@
 		  	<li class="span3">
 		        <div class="hover-group">
 		            <div class="image-wrapper">
-		              <a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
-					<span class="thisInfo"><p class="lanvin">Lanvin</p>
-					<p class="flats">Size 9.5<p>
+		              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
+					<span class="thisInfo">
 						</span>
 		              <div class="hover-toggle">
 		                <center><span class="percentoff">30% Off</span></center>
 		
+		
 		              </div>
 		            </div>
 		            
@@ -144,12 +168,12 @@
 			<li class="span3">
 		        <div class="hover-group">
 		            <div class="image-wrapper">
-		              <a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Jacket_Crop_Sign.png" alt=""></a>
-					<span class="thisInfo"><p class="lanvin">Lanvin</p>
-					<p class="flats">Size 9.5<p>
-						</p></span>
+		              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
+					<span class="thisInfo">
+						</span>
 		              <div class="hover-toggle">
 		                <center><span class="percentoff">30% Off</span></center>
+			
 		
 		              </div>
 		            </div>
@@ -160,9 +184,8 @@
 			<li class="span3">
 		        <div class="hover-group">
 		            <div class="image-wrapper">
-		              <a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Jacket_Crop_Sign.png" alt=""></a>
-					<span class="thisInfo"><p class="lanvin">Lanvin</p>
-					<p class="flats">Size 9.5<p>
+		              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
+					<span class="thisInfo">
 						</span>
 		              <div class="hover-toggle">
 		                <center><span class="percentoff">30% Off</span></center>
@@ -183,9 +206,8 @@
 		  	<li class="span3">
 		        <div class="hover-group">
 		            <div class="image-wrapper">
-		              <a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Jacket_Crop_Sign.png" alt=""></a>
-					<span class="thisInfo"><p class="lanvin">Lanvin</p>
-					<p class="flats">Size 9.5<p>
+		              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
+					<span class="thisInfo">
 						</span>
 		              <div class="hover-toggle">
 		                <center><span class="percentoff">30% Off</span></center>
@@ -199,9 +221,8 @@
 			<li class="span3">
 		        <div class="hover-group">
 		            <div class="image-wrapper">
-		              <a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Candle_Sale.jpg" alt=""></a>
-					<span class="thisInfo"><p class="lanvin">Lanvin</p>
-					<p class="flats">Size 9.5<p>
+		              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
+					<span class="thisInfo">
 						</span>
 		              <div class="hover-toggle">
 		                <center><span class="percentoff">30% Off</span></center>
@@ -215,9 +236,8 @@
 			<li class="span3">
 		        <div class="hover-group">
 		            <div class="image-wrapper">
-		              <a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Saks_Gucci.jpg" alt=""></a>
-					<span class="thisInfo"><p class="lanvin">Lanvin</p>
-					<p class="flats">Size 9.5<p>
+		              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
+					<span class="thisInfo">
 						</span>
 		              <div class="hover-toggle">
 		                <center><span class="percentoff">30% Off</span></center>
@@ -231,9 +251,8 @@
 			<li class="span3">
 		        <div class="hover-group">
 		            <div class="image-wrapper">
-		              <a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Saks_Gucci.jpg" alt=""></a>
-					<span class="thisInfo"><p class="lanvin">Lanvin</p>
-					<p class="flats">Size 9.5<p>
+		              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
+					<span class="thisInfo">
 						</span>
 		              <div class="hover-toggle">
 		                <center><span class="percentoff">30% Off</span></center>
@@ -250,9 +269,8 @@
 				    <li class="span3">
 				        <div class="hover-group">
 				            <div class="image-wrapper">
-				              <a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Saks_Gucci.jpg" alt=""></a>
-							<span class="thisInfo"><p class="lanvin">Lanvin</p>
-							<p class="flats">Size 9.5<p>
+				              <span class="thisInfo"><p class="lanvin">Lanvin</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/Aigle.jpg" alt=""></a>
+							<span class="thisInfo">
 								</span>
 				              <div class="hover-toggle">
 				                <center><span class="percentoff">30% Off</span></center>
