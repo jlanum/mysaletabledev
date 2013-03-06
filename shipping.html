@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="js/bootstrap-editable.min.js"></script>
-
+	
 	
 
     <!-- Le styles -->
@@ -32,8 +32,17 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">	<script type="text/javascript">
-
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">	
+    <script type="text/javascript">
+		$(document).on('click','#button', function(){
+			if($(this).siblings('#filter-section').is(':visible')){
+				$(this).siblings('#filter-section').slideUp()
+			}else{
+				$(this).siblings('#filter-section').hide().slideDown()
+			}
+			
+		})
+		
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-38882935-1']);
 	  _gaq.push(['_trackPageview']);
@@ -60,10 +69,10 @@
 		
 		<div class="nav-collapse collapse">
 		<form class="form-search">
-		  <input type="text" data-provide="typeahead" class="input-medium search-query" placeholder="Search">
+		  <input type="text" data-provide="typeahead" class="input-medium search-query" placeholder="Search by Brand">
 		</form>
 		</div>
-          <center><a class="brand" href="index.html"><img src="img/Logo_Website_v2.png" height="34" width="180" /></a></center>
+         <center> <center><a class="brand" href="index.html"><img src="img/Logo_Website_v2.png" height="34" width="180" /></a></center></center>
 		
           <div class="nav-collapse collapse">
             <ul class="nav">
@@ -79,72 +88,122 @@
 
   
     <div class="container">
-     
-      	<div class="category-feed well">
-	     		<center>
-			  <font size="6" color="#666">Following</font>
-			</center>
-		</div>
-	</div>
-	 
-	<div class="container">
-	
-		<div class="marketing">
-			<font size="4" class="muted">People Patricia Calfee follows</font><br><br><br>
-			<div class="row-fluid">
-		<span class="pull-left span1">
-			<a href="#"><img class="img-polaroid" src="img/Patricia.jpg" height="60" width="60px"></a><br><br>
-				</span><span class="hey muted">
-				<font size="3">Patricia Calfee</font></span><br><span class="hey muted">San Francisco</span>
-				<span class="pull-right follow-page">
-					<a href="#" class="btn">Follow</a>
-					</span>
-				<br><br>
-				<hr>
+    <div class="marketing">
+
+
+
+
+<table class="table table-bordered table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Order Number</th>
+      <th>Date Purchased</th>
+      <th>
+        Status
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="#shippingModal" data-toggle="modal">012345678</a>
+      </td>
+      <td>
+        03/04/13
+      </td>
+      <td>
+        <a>Confirmed</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="#shippingModal" data-toggle="modal">012345678</a>
+      </td>
+      <td>
+        03/04/13
+      </td>
+      <td>
+       Pending
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="#shippingModal" data-toggle="modal">012345678</a>
+      </td>
+      <td>
+        03/04/13
+      </td>
+      <td>
+        Shipped
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="#shippingModal" data-toggle="modal">012345678</a>
+      </td>
+      <td>
+        03/04/13
+      </td>
+      <td>
+        Confirmed
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="#shippingModal" data-toggle="modal">012345678</a>
+      </td>
+      <td>
+        03/04/13
+      </td>
+      <td>
+        Confirmed
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- modal -->
+	<div id="shippingModal" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-header">
+	    <button type="button" class="close modal-brand" data-dismiss="modal" aria-hidden="true">×</button><br>
+	    <p id="myModalLabel"></p>
+	  </div>
+	  <div class="modal-body">
+	   	<div class="row-fluid">
+			<div class="span2"><img class="img-polaroid" src="img/test_shoes.jpg" height="100px" width="100px" /><img class="img-polaroid"src="img/test_shoes.jpg" height="100px" width="100px" alt="" /><br>
 				</div>
+			<div class="span6">	<span class="time-banner">
+		            <span class="image-banner"><img src="img/test_shoes.jpg" alt="" />
+			<br>
+			
 				
-				<div class="row-fluid">
-			<span class="pull-left span1">
-				<a href="#"><img class="img-polaroid" src="img/Patricia.jpg" height="60" width="60px"></a><br><br>
-					</span><span class="hey muted">
-					<font size="3">Patricia Calfee</font></span><br><span class="hey muted">San Francisco</span>
-					<span class="pull-right follow-page">
-						<a href="#" class="btn">Follow</a>
-						</span>
-					<br><br>
-					<hr>
-					</div>
-					
-					<div class="row-fluid">
-				<span class="pull-left span1">
-					<a href="#"><img class="img-polaroid" src="img/Patricia.jpg" height="60" width="60px"></a><br><br>
-						</span><span class="hey muted">
-						<font size="3">Patricia Calfee</font></span><br><span class="hey muted">San Francisco</span>
-						<span class="pull-right follow-page">
-							<a href="#" class="btn">Follow</a>
-							</span>
-						<br><br>
-						<hr>
-						</div>
-						
-						<div class="row-fluid">
-					<span class="pull-left span1">
-						<a href="#"><img class="img-polaroid" src="img/Patricia.jpg" height="60" width="60px"></a><br><br>
-							</span><span class="hey muted">
-							<font size="3">Patricia Calfee</font></span><br><span class="hey muted">San Francisco</span>
-							<span class="pull-right follow-page">
-								<a href="#" class="btn">Follow</a>
-								</span>
-							<br><br>
-							<hr>
-							</div>
 				
-		  </div>
+			</div>
+			
+			<div class="span4 pull-right">
+				<br>
+				<table class="table table-bordered table-striped">
+					<tr>  
+				<td><font size="1" class="muted table-modaltwo">Subtotal</font>$XX.xx</td>
+				</tr>
+				<tr> 
+				<td><font size="1" class="muted table-modaltwo">Tax</font>X.xx</td>
+					</tr>
+					<tr>  
+				<td><font size="1" class="muted table-modaltwo">Total</font>XX.XX</td></tr><tr>  
+				<td><font size="1" class="muted table-modaltwo">MasterCard</font>XXXX XXXX XXXX 1234</td></tr>
+				</table>
+			</div>
+			</div>
 		</div>
-		
-	<br><br><br><br>
-		
-		
+	  <div class="modal-footer">
+	
+	    <button class="btn btn-success" data-dismiss="modal">Ok</button>
+	  </div>
+	</div>
+	
+<br><br><br><br><br><br><br><br><br><br>
+	
 		<div id="footer">
 	      <div class="container">
 		<div align="center">
@@ -152,7 +211,6 @@
 	      </div>
 	    </div>
 	</div>
-		
 
     </div> <!-- /container -->
 
@@ -163,6 +221,7 @@
     
     <script src="js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 	
     
 

@@ -565,3 +565,27 @@ width: 62px;
 .detail-twitter {
 	margin-left: 5px;
 }
+
+.shopper-profile {
+	margin-left:100px !important;
+}
+
+.followers-button {
+	margin-top: 8px;
+	margin-bottom: 5px;
+	margin-left: 19px !important;
+}
+
+.following-button {
+	margin-left: 19px !important;
+}
+
+.profile-name {
+	margin-left:43px !important;
+}
+
+.table-modaltwo {
+	width:73px;
+	display: inline-table !important;
+	
+}
