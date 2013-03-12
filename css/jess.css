@@ -491,7 +491,7 @@ width: 62px;
 }
 
 .pwd {
-	vertical-align:-.5px;
+	vertical-align:0px !important;
 }
 
 .url {
@@ -801,4 +801,8 @@ width: 62px;
 
 .order-status {
 	color:#432060 !important;
+}
+
+.upload-image {
+	margin-bottom: 10px;
 }
