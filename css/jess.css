@@ -54,7 +54,6 @@
 	margin-bottom: 16px;
 	    margin-top: 24px;
 	font-size: 14px !important;
-	font-weight: lighter !important;
 	color: #432060 !important;
 	position:relative; 
 	text-align:center;
@@ -132,7 +131,6 @@
 
 .contact {
 	color: #7d7d7d;
-	font-weight:lighter !important;
 }
 
 .Badges {
@@ -143,7 +141,6 @@
 
 .city {
 	
-	font-weight: lighter !important;
 	float: right;
 }
 
@@ -172,7 +169,6 @@
 
 .profile-upload {
 	float: left;
-	font-weight: lighter !important;
 }
 
 .zip {
@@ -270,7 +266,7 @@ span.stretch {
 }
 
 .our-story {
-	font-weight: lighter !important;
+
 }
 
 .photo-tips {
@@ -805,4 +801,15 @@ width: 62px;
 
 .upload-image {
 	margin-bottom: 10px;
+}
+
+.aboutus {
+	text-align:center;
+	margin:-267px 20px;
+	position:absolute; 
+	vertical-align:middle;
+	height:316px 
+	width:710px; 
+	display:block;
+
 }
