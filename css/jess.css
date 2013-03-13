@@ -455,6 +455,7 @@ width: 62px;
 	
 	padding-top: 60px;
 	padding-left:40px;
+
 }
 
 .landing-text {
@@ -805,7 +806,7 @@ width: 62px;
 
 .aboutus {
 	text-align:center;
-	margin:-267px 20px;
+	margin:-267px 15px;
 	position:absolute; 
 	vertical-align:middle;
 	height:316px 
