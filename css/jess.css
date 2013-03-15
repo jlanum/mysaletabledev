@@ -814,7 +814,8 @@ width: 62px;
 
 }
 
-.retailer-graphic {
-  margin: 30px 0;
-  text-align: center;
-}
+/* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
