@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>MySaleTable Dashboard</title>
+    <title>Template &middot; Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -12,14 +12,12 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="http://code.highcharts.com/highcharts.js"></script>
 	<script src="js/hicharts.js"></script>
-	<script src="js/hichartstwo.js"></script>
 
     <!-- Le styles -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jess.css" rel="stylesheet">
     <style type="text/css">
       body {
-        padding-top: -4px;
+        padding-top: 20px;
         padding-bottom: 60px;
       }
 
@@ -29,19 +27,16 @@
         max-width: 1000px;
       }
       .container > hr {
-        margin: 15px 0;
+        margin: 35px 0;
       }
-      .sale-alerts > hr {
-	     margin: -4px 0;
-}
 
       /* Main marketing message and sign up button */
       .jumbotron {
-        margin: 20px 0;
+        margin: 37px 0;
         text-align: center;
       }
       .jumbotron h1 {
-        font-size: 40px;
+        font-size: 100px;
         line-height: 1;
 		color:#432060;
       }
@@ -91,27 +86,8 @@
         border-right: 0;
         border-radius: 0 3px 3px 0;
       }
-			.sale-alerts {
-				margin-top: -20px !important;
-		
-			}
-			.span3 > hr {
-        margin: -10px 0;
-			}
-			.special {
-				width: 826px;
-				margin-left: 255px;
-			}
-			.monkey-business {
-				position: absolute;
-				margin-left: 256px;
-				top: 201px;
-			}
-			.stpattys {
-				margin-left:255px;
-			}
-   </style>
-   
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -139,12 +115,12 @@
           <div class="navbar-inner">
             <div class="container">
               <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Sale Alerts</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Stores</a></li>
+                <li class="active"><a href="#">Join</a></li>
+                <li><a href="#">Learn More</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="#">Marketplace</a></li>
-                <li><a href="#">My Account</a></li>
+                <li><a href="#">Blog</a></li>
               </ul>
             </div>
           </div>
@@ -153,79 +129,49 @@
 
       <!-- Jumbotron -->
       <div class="jumbotron">
-	<h1><font color="#432060">Lavish</font></h1>
-	<p class="muted">San Francisco, CA</p>
-	</div>
+        <h2><font color="#432060">Optimize Discount Sale Pricing </font></h2>
+        <p>MySaleTable Dashboard helps shops and stores optimize discount sale pricing by providing insight into industry data, relative store metrics, <br>and cross-market communication. Because information changes everything.
+		</p>
+        <a class="btn btn-large btn-success" href="#">Start Now</a>
+      </div>
 
       <hr>
-<h3 class="monkey-business">Sales Alerts</h3>
+
       <!-- Example row of columns -->
       <div class="row-fluid">
-        <div class="span3">
-          <h3 class="sale-alerts">Product Metrics</h3>
-          <hr><br> 
-<div id="yolo">
-					
-        </div></div>
+        <div class="span4">
+          <h3>Silver</h3>
+          <li>Information on (10) products</li>
+		  <li>Sale cycle pricing products</li>
+		  <li>Limited access to community board</li>
+		<br>
+          <p><a class="btn btn-success" href="#">Sign Up &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h3>Platinum</h3>
+          <li>Information on (50) products</li>
+		  <li>Sale cycle pricing alerts</li>
+		  <li>Comparative pricing details for (3) stores</li>
+		  <li>Unlimited access to community board</li>
+			<br>
+          <p><a class="btn btn-success" href="#">Sign Up &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h3>Gold</h3>
+          <li>Information on (100) products</li>
+          <li>Sale cycle pricing alerts</li>
+          <li>Comparative pricing details for (10) stores</li>
+          <li>Pricing simulation and optimization scenarios </li>
+          <li>Unlimited access to community board</li>
+		<br>
+          <p><a class="btn btn-success" href="#">Sign Up &raquo;</a></p>
+        </div>
+      </div>
 
-<hr>
-        <li class="span3">
-			        <div class="hover-group" style="width:200px;">
-			            <div class="image-wrapper">
-			              <span class="thisInfo"><p class="lanvin">Pliner Boots</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/boots_jesse.png" alt="" height="200px" width="200px"></a>
-						<span class="thisInfo">
-							</span>
-			              <div class="hover-toggle">
-			                <center><span class="percentoff">Next Markdown: April 2</span></center>
+      <hr>
 
-			              </div>
-			            </div>
-
-
-			    </li>
-
-				<li class="span3">
-			        <div class="hover-group" style="width:200px;">
-			            <div class="image-wrapper">
-			              <span class="thisInfo"><p class="lanvin">Flores Pillow</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/perfume_jesse.png" alt=""></a>
-						<span class="thisInfo">
-							</span>
-			              <div class="hover-toggle">
-			                <center><span class="percentoff">Next Markdown: April 2</span></center>
-
-			              </div>
-			            </div>
-
-
-			    </li>
-
-				<li class="span3">
-			        <div class="hover-group" style="width:200px;">
-			            <div class="image-wrapper">
-			              <span class="thisInfo"><p class="lanvin">Zac Posen</p></span><a href="#myModal" data-toggle="modal"><img class="product-pic" src="img/dress_jesse.png" alt=""></a>
-						<span class="thisInfo">
-							</span>
-			              <div class="hover-toggle">
-			                <center><span class="percentoff">Next Markdown: April 2</span></center>
-
-			              </div>
-			            </div>
-
-			        </div>
-			    </li>
-			</div>
-		
-     
-
-						
-						
-						
-						<div id="yoda">
-
-						        </div>
-<br><br><br><br><br>
       <div class="footer">
-        <p>&copy; MySaleTable 2013</p>
+        <p>&copy; Company 2013</p>
       </div>
 
     </div> <!-- /container -->

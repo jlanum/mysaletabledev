@@ -8,7 +8,7 @@
 	                type: 'bar'
 	            },
 	            title: {
-	                text: 'Monthly Average Sales'
+	                text: 'Discount Metrics'
 	            },
 	            subtitle: {
 	                text: 'Source: MySaleTable Analytics'
