@@ -652,7 +652,10 @@ width: 62px;
 }
 
 .asfeatured {
-	margin-top:17px;
+	text-align:center;
+	font-size:xx-large;
+	letter-spacing:2px;
+	margin-top: 20px;
 	
 }
 
@@ -663,8 +666,7 @@ width: 62px;
 
 
 .press-pass {
-	margin-top:75px;
-	margin-left:63px;
+	margin: 45px auto;
 }
 
 .featurette-pics {
@@ -828,3 +830,6 @@ width: 62px;
 	margin-bottom: 16px;
 }
 
+.center {
+	text-align: center;
+}
